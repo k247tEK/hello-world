@@ -1,2 +1,2 @@
 # hello-world
-Hello-World Private repository
+Hello-World Public repository
