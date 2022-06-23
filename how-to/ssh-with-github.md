@@ -17,6 +17,8 @@ ssh-add -l -E sha256
 
 ssh -T git@github.com
 Hi k247tEK! You've successfully authenticated, but GitHub does not provide shell access.
+
+git config --list
 ~~~
 
 ### how-to - create id_rsa & id_rsa.pub
@@ -25,9 +27,7 @@ Hi k247tEK! You've successfully authenticated, but GitHub does not provide shell
 cd ~/.ssh/[user]
 ssh-keygen -o -t rsa -b 4096 -C "[user]@email.com"
 ###### Note: use pass to protect key..... ######
-git config --list
 ~~~
 
 ---
-
 #EOF
